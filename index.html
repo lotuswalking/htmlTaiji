@@ -1,0 +1,35 @@
+<html>
+    <header>
+        <title>太极图</title>
+        <link rel="stylesheet" type="text/css" href="./main.css">
+    </header>
+    <body>
+<div id="taiji"></div>
+<p><b>注意: </b> Internet Explorer 不支持 border-image 属性。</p>
+<p> border-image 属性用于设置图片的边框。</p>
+
+<div id="round">这里，图像平铺（重复）来填充该区域。</div>
+<br>
+<div id="stretch">这里，图像被拉伸以填充该区域。</div>
+
+<p>下面有一些1-3之间的数组,请记下一个,并正确选择下面的问题:</p>
+<div class="number">下面有一些1-30之间的数组,请记下一个,并正确选择下面的问题:</div>
+<div id="n0" class='number'></div>
+<div id="n1" class='number'></div>
+<div id="n2" class='number'></div>
+<div id="n3" class='number'></div>
+<div id="n4" class='number'></div>
+<div class="number">
+您记得数组在哪里?</br>
+<input type="checkbox" id="ck1" onclick='handleClick(this)' value="Box1">框框1<br>
+<input type="checkbox" id="ck2" onclick='handleClick(this)' value="Box2">框框2<br>
+<input type="checkbox" id="ck3" onclick='handleClick(this)' value="Box3">框框3<br>
+<input type="checkbox" id="ck4" onclick='handleClick(this)' value="Box4">框框4<br>
+<input type="checkbox" id="ck5" onclick='handleClick(this)' value="Box5">框框5<br>
+根据您的选择,这个数字为:
+<div id='result'></div>
+</div>
+<img src="border.png" />
+<script src="app.js"></script>
+    </body>
+</html>
