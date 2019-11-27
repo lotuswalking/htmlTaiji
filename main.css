@@ -50,7 +50,7 @@ body {
 	border-image:url(border.png) 30 30 stretch;
 }
 img {
-    display: none;
+    /* display: none; */
     position: absolute;
     animation:mymove 15s linear infinite;
 }
